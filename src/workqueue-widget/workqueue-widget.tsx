@@ -7,8 +7,8 @@ import {
   UserCog
 } from "lucide-react"
 import { useState } from "react"
-import { PreviewAssignee } from "./preview-assignee"
-import { PreviewManager } from "./preview-manager"
+import { PreviewAssignee } from "./components/workqueue/preview-assignee"
+import { PreviewManager } from "./components/workqueue/preview-manager"
 
 export function WorkqueueWidget() {
   const [queue,] = useState<WorkqueueDefinition>(sampleQueue)
