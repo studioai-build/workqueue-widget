@@ -1,4 +1,4 @@
-import type { QueueColumn } from "@/workqueue-widget/lib/workqueue-types"
+import type { QueueColumn } from "../../../lib/workqueue-types"
 
 import { ASSIGNEES, PRIORITY_OPTIONS, STATUS_OPTIONS } from "./constants"
 import type { ManagerRow } from "./types"

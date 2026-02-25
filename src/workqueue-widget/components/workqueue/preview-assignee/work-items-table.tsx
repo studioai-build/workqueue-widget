@@ -1,5 +1,5 @@
-import { Table, TableBody, TableHead, TableHeader, TableRow } from "@/workqueue-widget/components/ui/table"
-import type { QueueColumn } from "@/workqueue-widget/lib/workqueue-types"
+import { Table, TableBody, TableHead, TableHeader, TableRow } from "../../ui/table"
+import type { QueueColumn } from "../../../lib/workqueue-types"
 
 import { TableEmptyState } from "./table-empty-state"
 import type { QueueItemRow } from "./types"

@@ -1,9 +1,9 @@
 import { ArrowUpRight, Eye, UserCog } from "lucide-react"
 
-import { Button } from "@/workqueue-widget/components/ui/button"
-import { Checkbox } from "@/workqueue-widget/components/ui/checkbox"
-import { TableCell, TableRow } from "@/workqueue-widget/components/ui/table"
-import type { QueueColumn } from "@/workqueue-widget/lib/workqueue-types"
+import { Button } from "../../ui/button"
+import { Checkbox } from "../../ui/checkbox"
+import { TableCell, TableRow } from "../../ui/table"
+import type { QueueColumn } from "../../../lib/workqueue-types"
 
 import { renderCellValue } from "./render-cell-value"
 import { SLAIndicator } from "./sla-indicator"

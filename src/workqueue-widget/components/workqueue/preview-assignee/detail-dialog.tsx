@@ -1,8 +1,8 @@
 import { ArrowUpRight, CheckCircle2, FileText, Hand, MessageSquare, Play, Undo2 } from "lucide-react"
 
-import { Button } from "@/workqueue-widget/components/ui/button"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/workqueue-widget/components/ui/dialog"
-import type { QueueColumn } from "@/workqueue-widget/lib/workqueue-types"
+import { Button } from "../../ui/button"
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "../../ui/dialog"
+import type { QueueColumn } from "../../../lib/workqueue-types"
 
 import { SLAIndicator } from "./sla-indicator"
 import type { QueueItemRow } from "./types"

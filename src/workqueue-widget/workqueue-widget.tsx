@@ -1,7 +1,7 @@
 "use client"
 
-import type { WorkqueueDefinition } from "@/workqueue-widget/lib/workqueue-types"
-import { sampleQueue } from "@/workqueue-widget/lib/workqueue-types"
+import type { WorkqueueDefinition } from "./lib/workqueue-types"
+import { sampleQueue } from "./lib/workqueue-types"
 import {
   User,
   UserCog

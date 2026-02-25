@@ -1,5 +1,5 @@
-import { Badge } from "@/workqueue-widget/components/ui/badge"
-import type { QueueColumn } from "@/workqueue-widget/lib/workqueue-types"
+import { Badge } from "../../ui/badge"
+import type { QueueColumn } from "../../../lib/workqueue-types"
 
 import { PRIORITY_STYLES, STATUS_STYLES } from "./constants"
 import type { ItemValue } from "./types"

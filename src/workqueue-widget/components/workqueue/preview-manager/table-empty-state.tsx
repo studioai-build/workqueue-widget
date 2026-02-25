@@ -1,6 +1,6 @@
 import { Inbox } from "lucide-react"
 
-import { TableCell, TableRow } from "@/workqueue-widget/components/ui/table"
+import { TableCell, TableRow } from "../../ui/table"
 
 interface TableEmptyStateProps {
   colSpan: number

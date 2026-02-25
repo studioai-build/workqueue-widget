@@ -1,10 +1,10 @@
 import { UserCog } from "lucide-react"
 
-import { Button } from "@/workqueue-widget/components/ui/button"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/workqueue-widget/components/ui/dialog"
-import { Label } from "@/workqueue-widget/components/ui/label"
-import { Textarea } from "@/workqueue-widget/components/ui/textarea"
-import type { IAMRole, IAMUser } from "@/workqueue-widget/lib/workqueue-types"
+import { Button } from "../../ui/button"
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "../../ui/dialog"
+import { Label } from "../../ui/label"
+import { Textarea } from "../../ui/textarea"
+import type { IAMRole, IAMUser } from "../../../lib/workqueue-types"
 
 interface ReassignDialogProps {
   open: boolean

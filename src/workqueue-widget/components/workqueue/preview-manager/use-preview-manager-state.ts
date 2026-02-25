@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react"
 
-import { iamRoles, iamUsers, type WorkqueueDefinition } from "@/workqueue-widget/lib/workqueue-types"
+import { iamRoles, iamUsers, type WorkqueueDefinition } from "../../../lib/workqueue-types"
 
 import { ASSIGNEES } from "./constants"
 import { generateManagerMockRows } from "./mock-data"

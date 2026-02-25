@@ -1,6 +1,6 @@
-import { Badge } from "@/workqueue-widget/components/ui/badge"
-import { Button } from "@/workqueue-widget/components/ui/button"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/workqueue-widget/components/ui/select"
+import { Badge } from "../../ui/badge"
+import { Button } from "../../ui/button"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../ui/select"
 import { ArrowUpRight, Filter, Play } from "lucide-react"
 
 import { STATUS_OPTIONS } from "./constants"

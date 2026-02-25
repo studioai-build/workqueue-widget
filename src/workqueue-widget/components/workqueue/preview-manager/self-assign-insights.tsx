@@ -1,7 +1,7 @@
 import { Hand, Inbox } from "lucide-react"
 
-import { Badge } from "@/workqueue-widget/components/ui/badge"
-import type { SelfAssignConfig } from "@/workqueue-widget/lib/workqueue-types"
+import { Badge } from "../../ui/badge"
+import type { SelfAssignConfig } from "../../../lib/workqueue-types"
 
 import { CapacityByUser } from "./capacity-by-user"
 import { RecentPoolActivity } from "./recent-pool-activity"

@@ -34,21 +34,15 @@ The code assumes:
 
 - React 18+
 - TypeScript
-- Tailwind CSS utility classes available in your app
 - `lucide-react` available
-- Path alias `@/` resolves to your `src` directory
-
-Important: Internal imports use `@/workqueue-widget/...`. If your project does not support that alias, either:
-
-- Configure alias `@ -> src`, or
-- Rewrite imports to relative paths.
+- Relative imports from project-local files (no path alias required)
 
 ## 4) Public Entry Point
 
 Use this component in your page/app shell:
 
 ```tsx
-import { WorkqueueWidget } from "@/workqueue-widget/workqueue-widget"
+import { WorkqueueWidget } from "./src/workqueue-widget/workqueue-widget"
 
 export default function WorkqueuePage() {
   return <WorkqueueWidget />
@@ -123,8 +117,6 @@ Use this as the mental model for assistants/tools:
 ## 9) Integration Checklist
 
 - [ ] Copied full `src/workqueue-widget` folder, not only one file
-- [ ] Installed required dependencies (`react`, `lucide-react`, Tailwind stack, Radix packages)
-- [ ] Confirmed alias `@/` works or imports were rewritten
-- [ ] Verified Tailwind classes render correctly in host app
+- [ ] Confirmed imports are relative `./` or `../` paths
 - [ ] Mounted `WorkqueueWidget` from `src/workqueue-widget/workqueue-widget.tsx`
 - [ ] Replaced `sampleQueue` with real typed data (optional but recommended)

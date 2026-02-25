@@ -1,4 +1,4 @@
-import type { WorkqueueDefinition } from "@/workqueue-widget/lib/workqueue-types"
+import type { WorkqueueDefinition } from "../../../lib/workqueue-types"
 
 export type ManagerCellValue = string | number
 

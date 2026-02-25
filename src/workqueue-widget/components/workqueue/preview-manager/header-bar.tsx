@@ -1,6 +1,6 @@
 import { BarChart3, RefreshCw } from "lucide-react"
 
-import { Button } from "@/workqueue-widget/components/ui/button"
+import { Button } from "../../ui/button"
 
 interface HeaderBarProps {
   totalItems: number
