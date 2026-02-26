@@ -12,3 +12,7 @@ This document explains how to integrate and use the `WorkqueueWidget` module in 
 The main entry file is:
 
 - `src/workqueue-widget/WorkqueueWidget.tsx`
+
+## Use
+
+import { WorkqueueWidget } from '@/workqueue-widget/WorkqueueWidget';

@@ -3,7 +3,7 @@ import { useViewToggle } from "./hooks/useViewToggle";
 import { ManagerWorkqueue } from "./components/workqueue/ManagerWorkqueue";
 import { AssigneeWorkqueue } from "./components/workqueue/AssigneeWorkqueue";
 
-const WorkqueueWidget = () => {
+export function WorkqueueWidget() {
   const { toggleView, isManagerView, isAssigneeView } = useViewToggle('assignee');
   return (
     <>
@@ -47,5 +47,3 @@ const WorkqueueWidget = () => {
     </>
   )
 }
-
-export default WorkqueueWidget
